@@ -10,6 +10,15 @@ int main() {
             cout << "b:" <<i<<endl;
         }
     }
+    int contador= 0;
+    int Stop =0;
+    while (contador <=30){
+        contador +=3;
+        Stop = contador % 2;
+       if (contador > 30 &&  Stop == 1) {
+            cout << contador;
+        }
+    }
 
 
     return 0;
